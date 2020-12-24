@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    border: 1px solid red;
     box-shadow:2px 2px 3px rgb(217, 228, 196);
 
 }
@@ -12,7 +11,7 @@
     justify-content:space-between;  
 }
 .navWrapper>a{
-    color:red;
+    color:rgb(5, 4, 100);
     font-size: 20px;
     font-weight: 400;
     padding: 5px
@@ -24,6 +23,27 @@
 @media only screen and (max-width: 750px) {
     .menuWrapper{
         display:block;
+        font-size: 20px;
+    }
+    .navWrapper{
+
+        background:rgb(3, 92, 84);
+        height: 100vh;
+        width: 60%;
+        position: absolute;
+        display: flex;
+        flex-direction:column;
+        justify-content:start;
+        align-items: center;
+        top: 72px; 
+        right:0px;
+        
+    }
+    .navWrapper>a{
+        color:rgb(244, 243, 250);
+        font-size: 20px;
+        font-weight: 400;
+        padding: 20px 0px;
     }
     
   }
