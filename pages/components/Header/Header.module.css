@@ -1,0 +1,29 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid red;
+    box-shadow:2px 2px 3px rgb(217, 228, 196);
+
+}
+.navWrapper{
+    width: 60%;
+    display: flex;
+    justify-content:space-between;  
+}
+.navWrapper>a{
+    color:red;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px
+}
+.menuWrapper{
+    display:none;
+}
+
+@media only screen and (max-width: 750px) {
+    .menuWrapper{
+        display:block;
+    }
+    
+  }
