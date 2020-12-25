@@ -1,0 +1,10 @@
+.buttons{
+    height: 200px;
+    padding-bottom: 10px !important;
+    min-width: 200px;
+    border-radius: 10px !important;
+    color:#fff !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    background-color:red !important
+}

@@ -2,13 +2,15 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    box-shadow:2px 2px 3px rgb(217, 228, 196);
-
+     box-shadow:2px 2px 3px rgb(217, 228, 196); 
+     position: sticky;
+    z-index: 1000;
 }
 .navWrapper{
     width: 60%;
     display: flex;
     justify-content:space-between;  
+   
 }
 .navWrapper>a{
     color:rgb(5, 4, 100);
@@ -19,7 +21,13 @@
 .menuWrapper{
     display:none;
 }
-
+.imageWrapper{
+    margin-top:5px;
+    
+}
+.mainImage{
+    z-index:-1000
+}
 @media only screen and (max-width: 750px) {
     .menuWrapper{
         display:block;
@@ -35,8 +43,9 @@
         flex-direction:column;
         justify-content:start;
         align-items: center;
-        top: 72px; 
+        top: 70px; 
         right:0px;
+        z-index: 1000;
         
     }
     .navWrapper>a{
