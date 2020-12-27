@@ -42,6 +42,7 @@ const Header = () => {
                 <Link href='#'><a>About Us</a></Link>
                 <Link href='#'><a>Post Event</a></Link>
                 <Link href='#'><a>Contact Us</a></Link>
+                <Link href='#'><a>Article</a></Link>
 
             </div> : null}
 
@@ -50,7 +51,7 @@ const Header = () => {
             </div>
         </div>
           <div className={Styles.imageWrapper}>
-              <Image className={Styles.mainImage} src='/main.jpg' layout='responsive' width={1200} height={300}/>
+              <Image className={Styles.mainImage} src='/main.jpg' layout='responsive' width={1200} height={400}/>
           </div>
         </React.Fragment>
     )

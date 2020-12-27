@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Styles from './Category.module.css';
-import {Button} from 'antd'
+import { Button } from 'antd'
 
 const Category = () => {
     const listOfCategory = [
@@ -12,14 +12,14 @@ const Category = () => {
         "Motivational Events",
     ]
     return (
-        <div>
-            {
+        <div style={{ display: 'flex', justifyContent: 'space-between',maxWidth:'600px',width:'100%',margin:'0 auto',margin:'20px 0px'}}>
+            {/* {
                 listOfCategory.map((eventList, eventListIndex) => <div>
-                 <Button className={Styles.buttons} key={`eventsList-${eventListIndex}`}>
-                     {eventList}
-                 </Button>
+                    <Button className={Styles.buttons} key={`eventsList-${eventListIndex}`}>
+                        {eventList}
+                    </Button>
                 </div>)
-            }
+            } */}
 
         </div>
     )

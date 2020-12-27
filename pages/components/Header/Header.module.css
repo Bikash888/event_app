@@ -2,8 +2,10 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-     box-shadow:2px 2px 3px rgb(217, 228, 196); 
+     box-shadow:2px 2px 3px rgb(20, 26, 10); 
      position: sticky;
+     top: 0;
+      background: #444141;
     z-index: 1000;
 }
 .navWrapper{
@@ -13,17 +15,18 @@
    
 }
 .navWrapper>a{
-    color:rgb(5, 4, 100);
+    color:rgb(243, 242, 248);
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     padding: 5px
 }
 .menuWrapper{
     display:none;
 }
 .imageWrapper{
-    margin-top:5px;
+    margin-top:0px;
     
+    height:auto;
 }
 .mainImage{
     z-index:-1000
