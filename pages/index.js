@@ -3,11 +3,12 @@ import styles from '../styles/Home.module.css'
 import Category from './components/catagories'
 import EventCard from './components/eventCard'
 import Header from './components/Header'
+import EventDetails from "./event-details"
 
 export default function Home() {
   return (
     <div >
-      <Head>
+      {/* <Head>
         <title>events</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -18,8 +19,8 @@ export default function Home() {
         <strong className={styles.eventTitle}>Events You  Can't Miss </strong> 
          
        </div>
-       </div>
-       <EventCard/>
+       </div> */}
+       <EventDetails/>
     </div>
   )
 }
